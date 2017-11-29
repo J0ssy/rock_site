@@ -5,7 +5,50 @@
   padding: 0;
 }
 
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 .navbar {
-	height: 2em;
+	height: 4em;
 	background-color: #303C44;
+}
+
+.navbar-title h1{
+	color: #FFF;
+	font-weight: 400;
+	margin-left: 10%;
+	margin-top: 3.5%;
+	font-size: 18px;
+
+
+}
+
+.navbar-categories ul {
+	text-align: right;
+	margin-right: 18%;
+	margin-top: 4%;
+
+}
+
+
+.navbar-categories li {
+	color: #FFF;
+	list-style: none;
+	display: inline-block;
+	text-align: right;
+	padding-right: 1em;
+}
+
+.banner-image {
+	background-image: url(../img/header.jpg);
+	width: 100%;
+	height: 500px;
+	background-position: center;
+	object-fit: cover;
+
+}
+
+.banner-image h1 {
+	display: inline-block;
 }
